@@ -1,0 +1,121 @@
+body{background-color: #d9d9d9;}
+#imgme{border-radius: 10px}
+.nav-link{position: relative;}
+.nav-item span:before{
+    content:"";
+    position :absolute;
+}
+.nav-link:hover>span{opacity: 1;}
+
+
+.btn2{background-color: rebeccapurple;
+color:white;
+    border: purple;
+font-family: Serif;
+padding-right: 20px;
+padding-left: 20px;
+padding-top: 7px;
+padding-bottom: 7px;}
+.btn1{background:none;
+   border-color: white;
+    border-width: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+color:white;}
+ul{
+    list-style-type:none;
+}
+.shadow{	color: #f35626;
+    background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 10s infinite linear;
+}
+
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}}
+#container1{padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    color:black;
+background-color: #d9d9d9;
+box-shadow: #2c364c;}
+
+#text1{ text-shadow: 2px 2px 5px mediumvioletred;
+font-family: Merhique;}
+
+
+
+.btn3 {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    border-radius: 30px;
+    width: 50%;
+}
+
+.btn3:hover,
+.btn3:focus,
+.btn3:active {
+    transform: scale(1.8);
+}
+
+#img1{
+    -ms-transform: skewY(4deg); /* IE 9 */
+    transform: skewY(4deg);
+    box-shadow:20px 20px 50px grey;
+    width:100%;
+}
+
+
+#img2{ -ms-transform: skewY(-4deg); /* IE 9 */
+    transform: skewY(4deg);
+    box-shadow:20px 20px 50px grey;
+    width:100%;}
+
+.btn4{border-color: #0c3a62;}
+.fixbackground{background-image: url("degree.jpg");
+    background-repeat: no-repeat;
+    background-size: 90%;background-attachment: fixed;
+    position: relative;}
+
+
+
+
+.icons{display: inline-block;
+padding-right:20px;
+padding-left: 30px;
+}
+
+.gmail{margin-left: -4rem;
+}
+.gmail:hover{color:red;}
+
+.fb{margin-left: -2rem;}
+.fb:hover{color: blue;}
+
+.insta{margin-left: -1.5rem;}
+.insta:hover{color:#b30059;}
+
+.tweet{margin-left: -2rem;}
+.tweet:hover{color:#4ba8ea;}
+
+.name{
+          color: purple;
+          text-shadow:
+                  0 2px 0 hotpink,
+                  0 4px 0 #aa2421,
+                  0 4px 0 #aa2421,
+                  0 4px 0 #aa2421}
